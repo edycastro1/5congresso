@@ -4,7 +4,7 @@ if( $_SERVER['REQUEST_METHOD']=='POST' ){
 	$form_name = isset($_POST['form_name']) ? $_POST['form_name'] : false;
 
 	//$to         = 'congresso@mpd.org.br'; //para quem vai o email
-	$to 		= "marcelo@marcelogaia.com.br";
+	$to 		= "edy.castro@outlook.com";
 	$email 		= isset($_POST['email']) ? $_POST['email'] : "";
 
 	$message = "";
@@ -21,7 +21,7 @@ if( $_SERVER['REQUEST_METHOD']=='POST' ){
 
 		/* Mensagem */
 		$message = "<div id=\"opiniao\">{$nome}, mandou a seguinte mensagem pela seção 
-						\"Fale Conosco\" do site: <br> <i>{$mensagem}<i> <br> Deixou o seguinte 
+						\"Fale Conosco\" do site: <br> <i>{$mensagem}</i> <br> Deixou o seguinte 
 						telefone para contato: {$tel}, e email: {$email}. 
 					</div>";
 
