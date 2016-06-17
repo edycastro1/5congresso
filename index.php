@@ -26,7 +26,7 @@ if( $_SERVER['REQUEST_METHOD']=='POST' ){
 					</div>";
 
 		if($mailing) {
-			$message .= "<br>O usuario gostaria tambem de receber as newsletters."
+			$message .= "<br>O usuario gostaria tambem de receber as newsletters.";
 		}
 
 		$msg = 'Obrigado pelo contato, aguardamos a sua visita.';
