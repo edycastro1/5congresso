@@ -319,7 +319,7 @@ ul.dates  li .values {
 
 .contact ul li {display: block;}
 
-.contact ul li input[type=text], .contact ul li textarea {
+.contact ul li input[type=text], .contact ul li input[type=email], .contact ul li textarea {
   display: block;
   width: 100%;
   border: 1px solid #ffffff;
