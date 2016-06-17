@@ -1,0 +1,652 @@
+i/* CSS Document */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif; font-weight: 300;}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+a {font-family: 'Lato', sans-serif; font-weight: 300;}
+
+hr.title-border {width: 30px; border: 1px solid #ffffff;}
+
+/* classes */
+.dark-blue {color: #002439;}
+.green {color: #2f8083;}
+.white {color: #ffffff;}
+.txt-right {text-align: right !important;}
+.txt-left {text-align: left !important;}
+.txt-center {text-align: center}
+.twelve {font-size: 12px !important;}
+.thirteen {font-size: 13px !important;}
+.fourteen {font-size: 13px !important;}
+.sixteen {font-size: 16px !important;}
+.eighteen-px {font-size: 18px !important;}
+.twenty {font-size: 20px !important;}
+.twenty-four {font-size: 24px !important;}
+.thirty {font-size: 30px !important; line-height: 40px !important;}
+.fourty {font-size: 40px !important;}
+.bold {font-weight: 700;}
+
+/* bt inscreva-se agora */
+.bt-inscreva-agora {
+  display: block;
+  overflow: hidden;
+  width: 500px;
+  margin: 50px auto;
+  background: #2f8083;
+  padding: 16px 0;
+  border-radius: 46px;
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bt-inscreva-agora:hover {text-decoration: none; color: #000000 !important;}
+
+
+.container-congresso-mpd {
+  max-width: 1170px !important;
+  margin: 0 auto;
+}
+
+h1 {
+  display: block;
+  margin: 150px 0 0 0;
+}
+
+h1 img {width: 640px;}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0 25px 0;
+}
+
+nav h1 img, nav h1 a {
+  display: block;
+  float: left;
+}
+
+nav h1 a {
+  padding: 28px;
+  font-family: 'GothamHTF-Book', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+nav h1 a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* home */
+.start {
+  background: url(../img/background-home.jpg) center top no-repeat;
+  -webkit-background-size: 120% auto;
+  -o-background-size: 120% auto;
+  background-size: 120%;
+}
+
+.start a {color: #ffffff !important;}
+
+/* presentation */
+.mailing {background: #2e7e85 !important; padding: 50px 0;}
+
+.mailing h2 {
+  color: #ffffff;
+}
+
+.mailing input {
+  position: relative;
+  color: #2d7f83;
+  background: #ffffff;
+  border-radius: 25px;
+  border: none;
+  padding: 16px 24px;
+  width: 560px;
+  margin: 0 0 0 50px;
+  z-index: 2;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.mailing button {
+  position: relative;
+  padding: 16px 20px 16px 16px;
+  background: #81abad;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  margin-left: -50px;
+  width: 100px;
+  z-index: 0;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.mailing button {text-decoration: none;}
+
+/* mpd section */
+.mpd-intro {
+    padding: 50px 0 50px 0;
+}
+
+.mpd-intro p {color: #666666;}
+
+.congresso {background: #002438;}
+.congresso h2 {color: #449194;}
+
+/* dates */
+
+ul.dates {
+  display: block;
+  overflow: hidden;
+}
+
+ul.dates li {
+  display: block;
+  float: left;
+  overflow: hidden;
+  height: 80px;
+  text-align: center;
+}
+
+ul.dates li .info {
+  display: block;
+  float: left;
+  font-size: 26px;
+  color: #2f8083;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: left;
+  width: 100%;
+}
+
+ul.dates  li .values {
+  display: block;
+  padding: 10px 30px;
+  font-size: 32px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  vertical-align: middle;
+  height: 60px;
+}
+
+#row-info {
+  display: block;
+  overflow: hidden;
+  margin: 20px 0 0 0;
+}
+
+#row-info li {
+  display: block;
+  float: left;
+  text-align: left;
+}
+
+#row-info li.include {
+  width: 120px !important;
+  padding: 30px 0;
+  border-right: 1px solid #2f8083;
+  margin-right: 40px;
+}
+
+#row-info li .info {
+  display: block;
+  width: 270px;
+  font-size: 26px;
+  color: #2f8083;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: left;
+}
+
+.methodology {
+  background: #002439 url(../img/bg-metodologia.jpg) center top no-repeat;
+}
+
+.methodology h2 {
+  color: #ffffff;
+}
+
+.methodology ul {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.methodology ul li {
+  text-align: center;
+}
+
+.methodology ul li h3 {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.methodology ul li p {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.subscribe {
+  background: url(../img/bg-local.jpg) repeat;
+  padding: 50px 0;
+}
+
+.subscribe .local-info ul li {display: block; margin: 0 0 40px 0;}
+.subscribe .local-info ul li h4 {font-size: 26px; color: #2d7f83;}
+.subscribe .local-info ul li h4 span {color: #666666; font-size: 20px;}
+
+.program {background: #84acad;}
+
+.program h3 {
+  font-size: 30px;
+}
+
+.program ul {
+  margin: 30px 0;
+}
+
+.program ul li {
+  display: inline-block;
+  font-size: 32px;
+}
+
+.program ul.program-agenda li {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.program ul.program-agenda li img {
+  margin: 35px 0 0 0;
+}
+
+.program ul.program-agenda li h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.program .bt-inscreva-agora {
+  color: #ffffff;
+}
+
+.program .bt-inscreva-agora:hover {
+  color: #000000;
+}
+
+.speechers {background: url(../img/bg-speechers.png) repeat;}
+
+.speechers article {margin-bottom: 50px; height: 230px;}
+
+.speechers article h4 {font-size: 30px; margin-bottom: 20px; text-align: center;}
+.speechers article span {font-size: 20px;}
+.speechers article p {font-size: 16px; line-height: 26px; text-align: center;}
+
+.general-info {background: #2f8083;}
+.general-info h2 {color: #ffffff;}
+
+.general-info a {color: #ffffff;}
+
+.general-info article {
+  text-align: center;
+  font-size: 17px;
+}
+
+.general-info .circle {
+  background: url(../img/circle.png) center no-repeat;
+  -webkit-background-size: 90% auto;
+  -o-background-size: 90% auto;
+  background-size: 90%;
+  padding: 10px;
+  margin: 0 0 50px 0;
+}
+
+.contact {background: #002439;}
+
+.contact h2 {color: #ffffff;}
+
+.contact ul li {display: block;}
+
+.contact ul li input[type=text], .contact ul li textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #ffffff;
+  background: none;
+  padding: 12px;
+  color: #ffffff !important;
+}
+
+.contact ul li input {margin: 0 0 36px 0;}
+.contact ul li input[type=checkbox] {width: 30px;}
+.contact ul li textarea {height: 160px;}
+
+.contact ul li button {
+  display: block;
+  background: #2f8083;
+  margin-top: -30px;
+  color: #ffffff;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 50px;
+}
+
+.discount {
+  background: #f26c4f;
+}
+
+.social {
+  background: url(../img/bg-social.png) repeat-x;
+  padding: 15px 0;
+}
+
+.social ul {
+  margin: 0 auto;
+  width: 400px;
+  background: url(../img/bg-social.png) center top no-repeat;
+}
+
+.social ul li {
+  display: inline-block;
+  width: 84px;
+  height: 84px;
+  margin: 10px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.social ul li a {
+  display: block;
+  width: 84px;
+  height: 84px;
+}
+
+.social ul li#facebook {background: url(../img/icon-fb.png) center top no-repeat}
+.social ul li#mpd {background: url(../img/icon-mpd.png) center top no-repeat}
+.social ul li#twitter {background: url(../img/icon-tw.png) center top no-repeat}
+
+.sponsors {}
+
+.sponsors ul.plans {
+  display: block;
+  overflow: hidden;
+  padding: 0px !important;
+  margin: 0px 0px 50px 0 !important;
+}
+
+.sponsors ul.plans li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.sponsors ul.plans li img {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.sponsors ul.plans li img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1.0;
+}
+
+footer {
+  background: #cccccc;
+  padding: 30px 0;
+}
+
+footer ul {
+  margin: 0 0 30px 0;
+  padding: 0px;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 10px 0 0;
+  color: #666666;
+}
+
+footer ul li a {color: #666666 !important;}
+footer ul li a:hover {color: #666666 !important;}
+
+footer input {
+  position: relative;
+  color: #2d7f83;
+  background: #ffffff;
+  border-radius: 25px;
+  border: none;
+  padding: 16px 24px;
+  width: 560px;
+  margin: 0 0 0 50px;
+  z-index: 2;
+}
+
+footer button {
+  position: relative;
+  padding: 16px 20px 16px 16px;
+  background: #929292;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  margin-left: -50px;
+  width: 100px;
+  z-index: 0;
+  text-align: right;
+}
+
+footer .copyright {color: grey; margin: 0 15px; font-size: 14px; font-weight: 300;}
+
+/* Queries CSS3 */
+/* ipad definitions */
+
+@media screen and (max-device-width: 768px) and (orientation: portrait){
+
+}
+
+/* mobile definitions */
+@media screen and (max-device-width: 468px) and (orientation: portrait){
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .img-mobile {width: 100% !important;}
+
+  .bt-inscreva-agora {
+    width: 260px;
+    margin: 50px auto;
+    background: #2f8083;
+    padding: 16px 0;
+    border-radius: 46px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  section h2 {
+    font-size: 32px;
+  }
+
+  .start {
+    background: url(../img/background-home.jpg) center top no-repeat;
+    -webkit-background-size: 450% auto;
+    -o-background-size: 450% auto;
+    background-size: 450%;
+  }
+
+  .start p {
+    padding: 0 20px;
+  }
+
+  .mailing {background: #2e7e85 !important; padding: 50px 0;}
+
+  .mailing img {
+    margin-bottom: 30px;
+  }
+
+  .mailing input {
+    position: relative;
+    color: #2d7f83;
+    background: #ffffff;
+    border-radius: 25px;
+    border: none;
+    padding: 16px 24px;
+    width: 240px;
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .mailing button {
+    position: relative;
+    padding: 16px 20px 16px 16px;
+    background: #81abad;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    margin-left: -50px;
+    width: 100px;
+    z-index: 0;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .mpd-intro p, .congresso p {padding: 0 20px;}
+  .congresso p {margin: 0 0 0 16px !important;}
+
+  .subscribe ul {width: 300px !important; margin: 0px auto !important; padding: 0px !important;}
+  .subscribe .local-info ul li h4 {font-size: 20px;}
+  .subscribe .local-info ul li h4 span {font-size: 16px;}
+
+  .subscribe .dates ul li {
+    width: 100% !important;
+  }
+
+  ul.dates li {width: 100%;}
+
+  ul.dates li .info {
+    display: inline;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center;
+  }
+
+  #row-info li.include {
+    display: block;
+    width: 100% !important;
+    padding: 16px 0;
+    border-right: none;
+    margin-right: 40px;
+    text-align: center;
+  }
+
+  .program h3 {text-align: center;}
+  .program h3 hr {float: none !important; width: 30px !important;}
+
+  .program center p {padding: 0 20px;}
+
+  .methodology ul {
+    margin: 0px 30px !important;
+    padding: 0px !important;
+  }
+
+  .methodology ul li {
+    margin-bottom: 30px;
+  }
+
+  .discount img {width: 85% !important;}
+
+  .general-info article {font-size: 13px;}
+
+  .speechers article {
+    height: auto !important;
+  }
+
+  .speechers article p {
+    padding: 0 20px;
+  }
+
+  .contact ul li {
+    margin: 10px !important;
+    padding: 0px !important;
+    width: 90% !important;
+  }
+
+  .social ul {width: 350px; padding: 0px auto;}
+  .social ul li {margin: 3px;}
+
+  footer p {
+    text-align: center;
+    font-size: 11px;
+    padding: 0 30px;
+  }
+
+  footer .bt-back-top {
+    float: none;
+    margin: 30px auto;
+    display: block;
+    text-align: center;
+  }
+
+  footer input {
+    position: relative;
+    color: #2d7f83;
+    background: #ffffff;
+    border-radius: 25px;
+    border: none;
+    padding: 16px 24px;
+    width: 250px;
+    margin: 0px;
+    z-index: 2;
+  }
+
+  footer button {
+    position: relative;
+    padding: 16px 20px 16px 16px;
+    background: #929292;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    margin-left: -50px;
+    width: 100px;
+    z-index: 0;
+    text-align: right;
+  }
+
+  footer ul li a {font-size: 12px !important;}
+
+  .img-mailing-footer {
+    margin: 0 0 20px 46px;
+  }
+
+  .img-hotel {width: 92% !important; display: block; margin: 0px auto;}
+
+  footer .copyright {display: block; text-align: left;}
+
+  [class*="col-"] {
+    padding-right: 0px;
+  }
+
+}
