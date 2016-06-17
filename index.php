@@ -985,27 +985,19 @@ Antonio Cluny | Procurador-Geral Adjunto em Portugal
 		<center><p class="white">Esta área é reservada para você!<br>
 			Entre em contato conosco, teremos enorme prazer em ajudar a esclarecer suas dúvidas.<br><br></p>
 		</center>
-		<?php
-		if( isSet($msg) )
-			echo '<div style="color: #ffffff; font-size: 20px; font-weight: 700;"><center><span class="msg">'.$msg.'</span></center></div>';
-else { // só mostra o form se não existir a mensagem de obrigado
-	?>
-	<form action="" method="post">
-		<input type="hidden" name="form_name" value="contato">
-		<ul class="col-md-12">
-			<li class="col-md-4"><input type="text" placeholder="Nome" name="nome" /></li>
-			<li class="col-md-4"><input type="email" placeholder="E-mail" name="email" /></li>
-			<li class="col-md-4"><input type="text" placeholder="Telefone" name="tel" /></li>
-			<li class="col-md-12">
-				<textarea placeholder="Mensagem" name="mensagem"></textarea>
-				<center><button type="submit">ENVIAR</button></center>
-			</li>
-			<li class="col-md-12 white twenty"><input id="mailing" name="mailing" type="checkbox" /><label for="mailing">Adicionar ao mailing</label></li>
-		</ul>
-	</form>
-	<?php
-} // fecha else
-?>
+		<form action="" method="post">
+			<input type="hidden" name="form_name" value="contato">
+			<ul class="col-md-12">
+				<li class="col-md-4"><input type="text" placeholder="Nome" name="nome" /></li>
+				<li class="col-md-4"><input type="email" placeholder="E-mail" name="email" /></li>
+				<li class="col-md-4"><input type="text" placeholder="Telefone" name="tel" /></li>
+				<li class="col-md-12">
+					<textarea placeholder="Mensagem" name="mensagem"></textarea>
+					<center><button type="submit">ENVIAR</button></center>
+				</li>
+				<li class="col-md-12 white twenty"><input id="mailing" name="mailing" type="checkbox" /><label for="mailing">Adicionar ao mailing</label></li>
+			</ul>
+		</form>
 <ul class="col-md-12">
 	<li class="col-md-6 twenty-four">
 		<span class="green">ou</span>
