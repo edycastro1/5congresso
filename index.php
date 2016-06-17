@@ -36,6 +36,7 @@ if( $_SERVER['REQUEST_METHOD']=='POST' ){
 
 		$message = "Um usuario deseja de inscrever para as newsletter. O seu email: {$email}";
 
+		$msg = 'Obrigado pelo contato, aguardamos a sua visita.';
 	}
 
 	$headers =  "MIME-Version: 1.1".PHP_EOL;
@@ -69,7 +70,9 @@ if( $_SERVER['REQUEST_METHOD']=='POST' ){
 
 		ga('create', 'UA-73133002-2', 'auto');
 		ga('send', 'pageview');
-
+<?php if($msg != ""){ 
+		echo "alert(\"{$msg}\");";
+}?>
 	</script>
 
 	<!-- Bootstrap core CSS -->
